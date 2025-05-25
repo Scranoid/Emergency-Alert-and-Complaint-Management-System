@@ -1,5 +1,6 @@
+//Declared the package name here
 package model;
-
+//Ive created the class of complaint for the user to raise one and store in the file
 public class Complaint {
     private String username;
     private String content;
