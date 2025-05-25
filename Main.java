@@ -7,7 +7,7 @@ import model.Complaint;
 import service.AuthService;
 import service.EmergencyService;
 import util.Validator;
-
+//This is the entry point of the program and contains all the functions necessary for the invoking and calling of all the functions present in the packages of our entire program
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
     private static AuthService authService = new AuthService();
