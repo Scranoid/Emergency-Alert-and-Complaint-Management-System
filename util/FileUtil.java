@@ -1,8 +1,8 @@
 package util;
-
+//Ive imported all the important java packages here
 import java.io.*;
 import java.util.*;
-
+//Created all the blocks for exception handling of the program
 public class FileUtil {
     public static void appendLine(String path, String line) {
         try {
