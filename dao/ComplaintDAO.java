@@ -4,7 +4,7 @@ import model.Complaint;
 import util.FileUtil;
 
 import java.util.*;
-
+//This specific file is for initiating the saving process for complaints in the file
 public class ComplaintDAO {
     private static final String FILE_PATH = "complaints.txt";
 
