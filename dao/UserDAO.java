@@ -5,7 +5,7 @@ import util.FileUtil;
 
 import java.io.*;
 import java.util.*;
-
+//This file for initiating the process in the console
 public class UserDAO {
     private static final String FILE_PATH = "users.txt";
 
