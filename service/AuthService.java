@@ -2,7 +2,7 @@ package service;
 
 import dao.UserDAO;
 import model.User;
-
+//These files created by me are for user registration and login and to check the availibility of an existing username as well
 public class AuthService {
     private UserDAO userDAO = new UserDAO();
 
