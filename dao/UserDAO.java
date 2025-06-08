@@ -3,9 +3,8 @@ package dao;
 import model.User;
 import util.FileUtil;
 
-import java.io.*;
-import java.util.*;
-//This file for initiating the process in the console
+import java.util.List;
+
 public class UserDAO {
     private static final String FILE_PATH = "users.txt";
 

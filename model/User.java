@@ -1,5 +1,5 @@
 package model;
-//This specific file created by me is for Username registration and password registration
+
 public class User {
     private String username;
     private String password;

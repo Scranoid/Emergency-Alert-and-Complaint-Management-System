@@ -3,8 +3,9 @@ package dao;
 import model.Complaint;
 import util.FileUtil;
 
-import java.util.*;
-//This specific file is for initiating the saving process for complaints in the file
+import java.util.ArrayList;
+import java.util.List;
+
 public class ComplaintDAO {
     private static final String FILE_PATH = "complaints.txt";
 

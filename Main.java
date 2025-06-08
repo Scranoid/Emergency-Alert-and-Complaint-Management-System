@@ -1,13 +1,13 @@
-//Importing all neccessary modules for the proper functioning of the program (created by my team members)
-import dao.ComplaintDAO;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.*;
 import model.Complaint;
 import service.AuthService;
 import service.EmergencyService;
+import dao.ComplaintDAO;
 import util.Validator;
-//This is the entry point of the program and contains all the functions necessary for the invoking and calling of all the functions present in the packages of our entire program
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
+
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
     private static AuthService authService = new AuthService();
@@ -115,4 +115,3 @@ public class Main {
         }
     }
 }
-//Created by Abhinav Jha on 17/05/2025 and uploaded on 25/05/2025.
